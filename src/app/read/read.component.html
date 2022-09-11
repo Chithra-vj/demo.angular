@@ -16,8 +16,8 @@
             <td>{{us.fullname}}</td>
             <td>{{us.email}}</td>
             <td>{{us.mobile}}</td>
-            <td><button class="btn btn-primary">update</button> 
-            <button class="btn btn-danger">Edit</button>
+            <td><button class="btn btn-primary">update</button> &nbsp;
+            <button class="btn btn-danger" (click)="del(us.id)">delete</button>
             
             </td>
           </tr>

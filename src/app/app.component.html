@@ -1,8 +1,18 @@
 
 <div class="container mt-5">
 <h1>UserManagement</h1>
-<a routerLink="create" class="btn btn-success" >Create</a> &nbsp;&nbsp;
-<a routerLink="read" class="btn btn-primary">Read</a>
+<a routerLink="create" class="btn btn-success">Create</a> &nbsp;&nbsp;
+<a routerLink="read" class="btn btn-primary">Read</a> &nbsp;&nbsp;
+<a routerLink="upload" class="btn btn-primary">Upload image</a>
+&nbsp;&nbsp;
+<a routerLink="pro" class="btn btn-primary">View Product</a>
+&nbsp;&nbsp;
+<a routerLink="/signIn" class="btn btn-primary">signIN</a> &nbsp;&nbsp; &nbsp;&nbsp;
+<button routerLink="cart" class="btn btn-primary">
+
+    <i class="fa fa-cart-plus" aria-hidden="true" style="font-size: 30px;"></i>
+ <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
+</button>
 
 </div>
 <router-outlet></router-outlet>

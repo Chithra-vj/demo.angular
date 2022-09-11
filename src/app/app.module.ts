@@ -10,11 +10,19 @@ import { ReadComponent } from './read/read.component';
 import {HttpClientModule} from '@angular/common/http';
 import { ApiserviceService } from './apiservice.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ImagecomComponent } from './imagecom/imagecom.component';
+import { SignupComponent } from './signup/signup.component';
+import { ProductComponent } from './product/product.component';
+import { CartComponent } from './cart/cart.component';
 @NgModule({
   declarations: [
     AppComponent,
     CreateComponent,
-    ReadComponent
+    ReadComponent,
+    ImagecomComponent,
+    SignupComponent,
+    ProductComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
